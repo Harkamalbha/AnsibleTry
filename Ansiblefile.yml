@@ -1,7 +1,7 @@
 - name: Trying
   hosts: all
   tasks:
-   - name: Restarting oneagent
+- name: Restarting oneagent
   service:
    name: oneagent
    state: restarted
