@@ -4,4 +4,4 @@
    - name: Stopping oneagent
      service:
        name: oneagent
-       state: stop
+       state: stopped
