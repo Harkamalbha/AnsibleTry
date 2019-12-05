@@ -2,6 +2,6 @@
   hosts: all
   tasks:
    - name: Restarting oneagent
-    service:
-       name: oneagent
-       state: restarted
+  service:
+   name: oneagent
+   state: restarted
